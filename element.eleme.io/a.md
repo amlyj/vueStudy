@@ -1,7 +1,7 @@
 # a标签
 
 ## `href`与`v-bind:href`
-> **`v-bind:href＝"[]"`** 可以直接使用vue的变量（如token）
+> **`v-bind:href＝"[]"`** : **`v-bind:属性`** 可以直接使用vue的变量（如token）
 * HTML
 ```html
 <el-table-column show-overflow-tooltip="true" label="操作" width="140">
@@ -35,4 +35,4 @@
         }
     }
 </script>
-``
+```
